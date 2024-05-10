@@ -14,7 +14,7 @@
                 alert('Selecione um nível para iniciar o jogo')
                 return false
             }
-            alert(nivel)
+            window.location.href = "game.html?" + nivel
         }
     </script>
 </head>
@@ -35,7 +35,7 @@
                             <option value="">-- Selecionar o nível --</option>
                             <option value="normal">Normal</option>
                             <option value="dificil">Difícil</option>
-                            <option value="ultra_dificil">Irritante</option>
+                            <option value="irritante">Irritante</option>
                         </select>
                     </div>
                 </div>
